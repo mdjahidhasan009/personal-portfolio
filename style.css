@@ -1,0 +1,211 @@
+body{
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+section {
+  margin-top: 80px;
+}
+
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.inner-container {
+  display: flex;
+}
+
+.half-width {
+  max-width: 50%;
+}
+
+.btn {
+  padding: 15px 30px;
+  color: white;
+  background-color: #4000ff;
+  outline: auto;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+span h1 {
+  margin-top: 0;
+  color: #4000ff;
+}
+
+a {
+  text-decoration: none;
+}
+
+/******************************************************* Hero *********************************************************/
+#hero img {
+  max-width: 90%;
+  margin-top: -40px;
+  margin-left: 45px;
+}
+
+#hero .btn {
+  margin: 10px 0;
+}
+
+.heading {
+  margin-top: 100px;
+  border-left: 3px solid #4000ff;
+  padding-left: 10px;
+}
+
+
+
+
+/**************************************************** My Mission ***************************************************/
+#my-mission h1 {
+  margin-bottom: 30px;
+}
+
+#my-mission .inner-container {
+  justify-content: space-around;
+}
+
+#my-mission img {
+  width: 141px;
+  height: 141px;
+}
+
+.box {
+  margin: 10px;
+  padding: 10px;
+  min-width: 30%;
+  border-radius: 15px;
+}
+
+.box-description {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#box1 {
+  background-color: rgba(79, 157, 166, 10%);
+}
+#box2 {
+  background-color: rgba(255, 89, 89, 10%);
+}
+#box3 {
+   background-color: #FFF4D6;
+ }
+
+
+/*****************************************************    More   ******************************************************/
+#more .container {
+  background-image: url("images/shapes/shape-1.png");
+  background-repeat: no-repeat;
+  background-size: 50px;
+  background-position: left 173px;
+}
+
+#more .img-container {
+  width: 40%;
+  border-image: url("images/shapes/shape-1.png");
+}
+
+#more .description-container {
+  width: 60%;
+}
+
+.img-container img {
+  width: 400px;
+  height: 400px;
+}
+.description-container {
+  padding: 20px 0 0 40px;
+}
+
+/*****************************************************    More2   *****************************************************/
+
+#more2 .img-container {
+  width: 40%;
+}
+
+#more2 .description-container {
+  width: 60%;
+}
+
+#more2 .description-container {
+  padding: 20px 20px 0 0;
+}
+
+/********************************************Education And Competitive Programming**************************************/
+.light_blue_text {
+  margin: 0;
+  color: #0bceaf;
+}
+
+.education_dsa .inner-container {
+  justify-content: space-between;
+}
+
+.education_dsa h3,
+.competitive_programming h3 {
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: bold;
+  margin-bottom: 60px;
+}
+
+.education_dsa .education_item,
+.competitive_programming .dsa_item {
+  background-color: rgba(79, 157, 166, 10%);
+  margin-bottom: 30px;
+  padding: 26px 30px;
+  border-radius: 4px;
+  box-shadow: 0 25px 22px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.education_dsa .education_item:last-child,
+.competitive_programming .dsa_item:last-child {
+  margin-bottom: 0;
+}
+
+.education_item h4,
+.dsa_item h4 {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.education_item p,
+.dsa_item p {
+  font-size: 14px;
+  line-height: 23px;
+  margin: 0;
+}
+
+/************************************************* Footer *************************************************************/
+footer {
+  background-color: rgba(11, 13, 23, 1);
+  color: white;
+  margin-top: 80px;
+}
+
+.footer-content {
+  padding: 20px;
+}
+
+footer h1 {
+  font-family: 'Dancing Script', cursive;
+  font-weight: bold;
+}
+
+footer h1 span {
+  color:  #4000ff;
+}
